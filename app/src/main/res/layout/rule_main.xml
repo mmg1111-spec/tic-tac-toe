@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TIC-TAC TOE 설명"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/black" />
+
+        <ImageView
+            android:layout_width="316dp"
+            android:layout_height="315dp"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:id="@+id/picture"
+            android:src="@drawable/tictactoe" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:text="틱택토(tic-tac-toe)는 두 명이 번갈아가며 X와 O를 3×3 판에 써서 같은 글자를 가로, 세로, 혹은 대각선 상에 놓이도록 하는 놀이다."
+            android:textAlignment="center"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#0839FF"
+            android:textSize="30dp"
+            android:text="*5x5는 3x3과 동일한 룰이지만, *7x7은 가로,세로,대각선이 4개"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

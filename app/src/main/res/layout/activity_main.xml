@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="간단한 TIC-TAC TOE 게임"
+    android:textSize="35dp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="3x3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/square_back"
+        android:backgroundTint="@color/purple_500"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/square_back"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_500"
+        android:text="5x5"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/square_back"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_500"
+        android:text="7x7"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/square_back"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_500"
+        android:text="설명"/>
+
+
+
+</LinearLayout>
